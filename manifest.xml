@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="1.1.0" installOnlyAtStartup="false" uuid="ballpointgamev11-bbc139">
+ <names>
+  <name lang="de_DE">ballpointgame</name>
+  <name lang="en_US">ballpointgame</name>
+ </names>
+ <descriptions>
+  <description lang="de_DE">Ein Planungsspiel um Teams zu schulen, sich selbst besser einschätzen zu können.</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>de_DE</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>de_DE</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.8" minVersion="2.8"/>
+  <robotRequirement model="NAO" maxBodyVersion="5.0" maxHeadVersion="5.0" minHeadVersion="5.0" minBodyVersion="5.0"/>
+ </requirements>
+</package>
